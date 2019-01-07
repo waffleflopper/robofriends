@@ -14,7 +14,7 @@ const CardList = ({robots}) =>  {
     });
 
     return (
-        <div className="tc ma5">
+        <div className="tc">
             {cardComponent}
         </div>
     );
