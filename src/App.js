@@ -40,7 +40,7 @@ class App extends React.Component {
         return (
             <div>
                 <nav class="pa3 pa4-ns">
-                <a class="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" href="#" title="Home">RoboFriends</a>
+                <a class="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" href="index.js" title="Home">RoboFriends</a>
                 <div class="tc pb3">
                     <SearchBox searchChange={this.onSearchChange} searchField={this.state.searchField}/>
                 </div>
