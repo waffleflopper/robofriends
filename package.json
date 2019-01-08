@@ -2,7 +2,7 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://waffleflopper.github.io/robofriends",
+  "homepage": "http://waffleflopper.github.io/robofriends/build",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
