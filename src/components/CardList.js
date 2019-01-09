@@ -1,5 +1,10 @@
 import React from 'react';
 import Card from './Card';
+import styled from 'styled-components';
+
+const Section = styled.section`
+    text-align: center;
+`
 
 const CardList = ({robots}) =>  {
     
@@ -14,9 +19,9 @@ const CardList = ({robots}) =>  {
     });
 
     return (
-        <div className="tc">
+        <Section>
             {cardComponent}
-        </div>
+        </Section>
     );
 }
 

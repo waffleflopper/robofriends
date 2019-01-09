@@ -1,15 +1,19 @@
 import React from 'react';
-import './SearchBox.css';
+import styled from 'styled-components';
+
+const Input = styled.input`
+    padding: 1em;
+    border: solid 1px rgb(128, 42, 21);
+    background: rgba(255, 215, 170, 0.6);
+    font-size: 1.25em;
+`
 
 const SearchBox = ({searchField, searchChange}) => {
     return (
-        <div className="pa2">
-            <input type="search" 
-                className="pa3 ba search"
+            <Input type="search" 
                 placeholder="Search robots..." 
                 onChange={searchChange}
                 />
-        </div>
     );
 }
 
