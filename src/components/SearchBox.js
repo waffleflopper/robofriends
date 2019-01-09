@@ -12,8 +12,7 @@ const SearchBox = ({searchField, searchChange}) => {
     return (
             <Input type="search" 
                 placeholder="Search robots..." 
-                onChange={searchChange}
-                />
+                onChange={searchChange} />
     );
 }
 
