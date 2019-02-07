@@ -2,6 +2,7 @@ import React from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import ScrollBox from '../components/ScrollBox';
+import ErrorBoundry from '../components/ErrorBoundry';
 import styled from 'styled-components';
 
 const Title = styled.h1`
@@ -67,7 +68,9 @@ class App extends React.Component {
                 </SearchSection>
                     
             <ScrollBox height="80%" width="100%">
-                <CardList robots={filteredRobots}/>
+                <ErrorBoundry>
+                    <CardList robots={filteredRobots}/>
+                </ErrorBoundry>
             </ScrollBox>
             </div>
         );

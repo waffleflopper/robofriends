@@ -17,7 +17,9 @@ const CardList = ({robots}) =>  {
         email={robots[i].email}
         />);
     });
-
+/*     if (true) { //test error boundry
+        throw new Error('noooo');
+    } */
     return (
         <Section>
             {cardComponent}
